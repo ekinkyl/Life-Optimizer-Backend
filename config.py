@@ -1,5 +1,5 @@
 import os
 
 class Config:
-    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'sqlite:///my_database.db')
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    # Update with your actual MongoDB URI
+    MONGO_URI = os.getenv('MONGO_URI', 'mongodb://localhost:27017/myDatabase')
